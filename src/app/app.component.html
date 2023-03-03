@@ -1,0 +1,126 @@
+<!-- <app-navbar></app-navbar> -->
+
+
+<mat-toolbar>
+  <h1>Legacy Life Plans</h1>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <div class="topnav" id="myTopnav">
+    &nbsp; &nbsp;
+    <a href="#home" class="">Home</a>&nbsp;
+    <a href="#Trustees">Trustees</a>&nbsp;
+    <a href="#Professionals" class="active">Professionals</a>&nbsp;
+    <a href="#More">...More</a>
+    <i class="fa fa-search" style="font-size:38px;color:aliceblue"></i>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        
+      <i class="fa fa-bars"></i>
+    </a>
+    
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened="">
+
+
+<div class="user">
+  <img src="https://freepngimg.com/thumb/model/89109--png-free-photo.png">
+</div>
+<h4>Mary Decosta</h4>
+
+ CFA CIC <br>Premium Member<br><br>
+ Insurance Agent,Attorney,<br>Accountant
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+    <div class="content mat-elevation-z4">
+
+      <h4>Business Details &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button button1">Edit Profile </button></h4>
+      <br>
+      
+      <h3>Profile</h3>
+    <form>
+      <label for="fname">Full Name: &nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="fname" name="fname"> 
+      <br><br>
+      <label for="name">Domain: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="name" name="name">
+<br>
+<br>
+      <label for="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="radio" id="Male" name="gender" value="Male">
+  <label for="html">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="css">Female</label><br>
+<br>
+<label for="birthday">Birthday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="date" id="birthday" name="birthday">
+
+  <br>
+  <br>
+  <label for="number">Phone <br>Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="tel" name="tel" value="333-444-5555"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br /><br />
+
+           <label for="fname">Location: &nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="location" name="location"> 
+
+      <!-- <button class="button button1">Green</button> -->
+    </form>
+      
+      <!-- <form class="form-container">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>Profile Information</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="row">
+              <div class="col-md-6">
+                <mat-form-field class="">
+                  <input matinput="" placeholder="First name">
+                </mat-form-field>
+              </div>
+              <div class="col-md-6">
+                <mat-form-field class="">
+                  <input matinput="" placeholder="Last name">
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <mat-form-field class="">
+                  <textarea matinput="" placeholder="Address"></textarea>
+                </mat-form-field>
+              </div>
+              <div class="col-md-6 top-padding">
+                    <mat-form-field class="" appearance="fill">
+                        <mat-label>Select DOB</mat-label>
+                        &lt;input matInput [matDatepicker]="picker"&gt;
+                        &lt;mat-datepicker-toggle matSuffix [for]="picker"&gt;&lt;/mat-datepicker-toggle&gt;
+                        &lt;mat-datepicker #picker&gt;&lt;/mat-datepicker&gt;
+                    </mat-form-field>                  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <mat-radio-group class="margin-left">
+                        <mat-radio-button value="male"> Male </mat-radio-button>
+                        <mat-radio-button value="female"> Female </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button="" color="primary">Save</button>
+          </mat-card-actions>
+        </mat-card>
+      </form> -->
+    </div>
+    
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
